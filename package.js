@@ -14,7 +14,7 @@ Package.onUse(function(api) {
 
   api.use('ecmascript');
   api.use('meteor-base');
-  api.use('cinn:logged-user');
+  api.use('cinn:logged-user@0.0.2');
   api.use("matb33:collection-hooks@0.7.15");
 
   api.addFiles('transparent-interceptors.common.js', both);
